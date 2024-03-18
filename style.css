@@ -1,0 +1,181 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  hsl(234, 29%, 20%);
+  margin: 5rem;
+}
+
+/* .main-container{
+  display: none;
+} */
+
+.product-container{
+  display:flex;
+  justify-content: center;
+  background-color: white;
+  width:65%;
+  border-radius: 1.5em;
+  margin-left: 15rem;
+  
+}
+
+.icon-container{
+  display: flex;
+  padding: 0.5rem;
+ 
+}
+
+.icon-container p{
+  padding-left: 1rem;
+  width: 150%;
+}
+
+.text-container{
+  margin: 3rem;
+  padding-right: 0.5rem;
+}
+
+.illustration-cont img{
+  width:100%;
+  height:100%;
+  padding: 1rem;
+  /* padding-right: 2rem; */
+}
+
+#stay{
+  color:  hsl(234, 29%, 20%);
+  padding-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#join{
+  padding-bottom: 1rem;
+  width: 125%;
+ 
+ 
+}
+
+/* .paragraph-container{
+  padding-bottom: 1rem;
+  /* padding-left: 1rem; */
+ 
+
+
+#email {
+  padding-bottom: 2rem;
+}
+
+input{
+ width: 100%;
+ padding: 0.8rem;
+ margin-bottom: 1rem;
+ margin-top: 0.7rem;
+ border-radius: 0.5rem;
+ 
+
+}
+
+input:active{
+  background-color: hsl(4, 100%, 67%);
+ 
+}
+
+.btn {
+  padding: 0.8rem;
+  width: 100%;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.img-paragraph{
+  padding-bottom: 2rem;
+}
+
+.second-container{
+  background-color: white;
+  padding:3rem;
+  margin: 20rem;
+  padding-left: 3rem;
+  border-radius: 1.5rem;
+  display: none;
+}
+/* .second-container img{
+padding-top: 1rem;
+} */
+
+
+.second-container h1{
+  padding-bottom: 1em;
+  padding-top: 2rem;
+  color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.second-container p{
+  padding-bottom: 2rem;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#btn-2 {
+  padding: 0.8rem;
+  width: 100%;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn:active{
+  background-color: hsl(4, 100%, 67%);
+ 
+  
+}
+
+/* #btn:hover{
+
+} */
+
+#error-message{
+  color: hsl(4, 100%, 67%);
+  margin-left: 10rem;
+  display: none;
+}
+
+@media screen and (max-width:375px){
+  body{
+      background-color:  hsl(234, 29%, 20%);
+      margin: 1rem;
+  }
+
+  .product-container{
+      display:inline-block;
+      background-color: white;
+      width: 1000%;
+      
+
+  }
+
+  .text-container{
+  padding: 0.5rem;
+  }
+  
+}
+
